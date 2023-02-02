@@ -20,7 +20,7 @@ This challenge encourages us to utilize the knowledge we leaned about react to c
 
 [GitHub Repository](https://github.com/Gareth-Kwan/react-portfolio)
 
-[GitHub Page](https://drive.google.com/file/d/13Yqv1O4u2rHCCQqRFejpY0516_DJUvgg/view)
+[GitHub Page](https://gareth-kwan.github.io/react-portfolio/)
 
 # Screenshots
 
