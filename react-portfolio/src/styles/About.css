@@ -1,0 +1,48 @@
+/* Header section */
+.header {
+  padding: 20%;
+  background: url(../../public/img/header_wallpaper.png);
+  color: #ffffff;
+  font-size: 250%;
+  text-align: center;
+  line-height: normal;
+}
+
+/* Style of my name */
+.name,
+.home {
+  color: red;
+}
+
+/* About Me Section */
+.avatar {
+  height: 15%;
+  width: 15%;
+  border-radius: 60px;
+  margin: 2%;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-size: 125%;
+  border-top: 2px solid red;
+  border-bottom: 1px solid red;
+
+  padding-bottom: 1%;
+}
+
+.about-me h2 {
+  padding-bottom: 2%;
+  color: red;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.about-me-text {
+  width: 95%;
+  line-height: 2em;
+}
