@@ -3,8 +3,14 @@
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 3%;
+  height: 85.8vh;
+  width: 100vw;
 }
 
 Label {
   color: white;
+}
+
+#contact {
+  padding: 3% 0;
 }

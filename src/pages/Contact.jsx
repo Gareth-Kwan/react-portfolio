@@ -4,30 +4,30 @@ import "../styles/Contact.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Contact = () => {
-  const [formData, setFormData] = React.useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const [submissionStatus, setSubmissionStatus] = React.useState(null);
+  // const [formData, setFormData] = React.useState({
+  //   name: "",
+  //   email: "",
+  //   message: "",
+  // });
+  // const [submissionStatus, setSubmissionStatus] = React.useState(null);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!formData.name || !formData.email || !formData.message) {
-      alert("Please enter your name, email and message.");
-      return;
-    }
-    setSubmissionStatus("Thank you for your submission!");
-    // Add your submission logic here
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   if (!formData.name || !formData.email || !formData.message) {
+  //     alert("Please enter your name, email and message.");
+  //     return;
+  //   }
+  //   setSubmissionStatus("Thank you for your submission!");
+  //   // Add your submission logic here
+  // };
 
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  // const handleChange = (e) => {
+  //   setFormData({ ...formData, [e.target.name]: e.target.value });
+  // };
   return (
-    <div class="contact-me-container">
-      <Form>
-        <h2 class="portfolio-title" id="contact">
+    <div className="contact-me-container">
+      <Form className="form">
+        <h2 className="portfolio-title" id="contact">
           Contact Me
         </h2>
         <FormGroup>

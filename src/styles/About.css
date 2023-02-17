@@ -1,23 +1,7 @@
-/* Header section */
-.header {
-  padding: 20%;
-  background: url(../../public/img/header_wallpaper.png);
-  color: #ffffff;
-  font-size: 250%;
-  text-align: center;
-  line-height: normal;
-}
-
-/* Style of my name */
-.name,
-.home {
-  color: red;
-}
-
 /* About Me Section */
 .avatar {
-  height: 15%;
-  width: 15%;
+  height: 35%;
+  width: 30%;
   border-radius: 60px;
   margin: 2%;
 }
@@ -31,8 +15,9 @@
   font-size: 125%;
   border-top: 2px solid red;
   border-bottom: 1px solid red;
-
   padding-bottom: 1%;
+  height: 85vh;
+  width: 100vw;
 }
 
 .about-me h2 {
@@ -45,4 +30,5 @@
 .about-me-text {
   width: 95%;
   line-height: 2em;
+  font-size: large;
 }
